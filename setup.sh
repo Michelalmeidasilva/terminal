@@ -36,12 +36,7 @@ echo  "cat $WELCOME_PATH" >> $SHELL_TERMINAL_RC_PATH
 
 
 
-
-source $SHELL_TERMINAL_RC_PATH
-
-
 echo "Corrigindo configurações do linux seguindo padrão de teclado X"
-
 
 
 echo "Adicionando cron para att todo o dia o repositório"

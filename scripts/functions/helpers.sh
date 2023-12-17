@@ -24,12 +24,12 @@ setPermissionsToShellScripts(){
 getEnvironments(){
   #!/bin/bash
 
-  repositoryPath=.$(getRepositoryPath)
+  ENV_PATH=.$(getRepositoryPath)
 
-  echo $repositoryPath
+  echo $ENV_PATH
 
   # Check if the .env file exists
-  if [ -f $repositoryPath ]; then
+  if [ -f $ENV_PATH ]; then
       # Read and export environment variables from the .env file
       while IFS='=' read -r key value; do
           export "$key"="$value"

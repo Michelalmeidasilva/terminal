@@ -25,6 +25,9 @@ COMMANDS_ALIAS="alias shortcuts='cat $COMMANDS_PATH'"
 TODOIST_ALIAS="alias todo='cat $TODOIST_PATH'"
 PULL_REPOSITORY_ALIAS="alias update-term='$UPDATE_REPOSITORY_PATH'"
 
+echo "Dando o permissões para shell script"
+chmod +x config-git.sh
+chmod +x update-repository.sh
 
 echo "Adicionando Aliases"
 echo  "$COMMANDS_ALIAS" >> $SHELL_TERMINAL_RC_PATH
@@ -41,8 +44,10 @@ echo "Corrigindo configurações do linux seguindo padrão de teclado X"
 
 echo "Adicionando cron para att todo o dia o repositório"
 
-  (crontab -l ; echo "@reboot $UPDATE_REPOSITORY_PATH") | crontab -
+(crontab -l ; echo "@reboot $UPDATE_REPOSITORY_PATH") | crontab -
 
 echo "Setup Finalizado"
 
 echo "Rode  o comando:\nsource $SHELL_TERMINAL_RC_PATH"
+
+

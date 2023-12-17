@@ -41,7 +41,8 @@ echo "Corrigindo configurações do linux seguindo padrão de teclado X"
 
 echo "Adicionando cron para att todo o dia o repositório"
 
-(crontab -l ; echo "@reboot $UPDATE_REPOSITORY_PATH") | crontab -
+  (crontab -l ; echo "@reboot $UPDATE_REPOSITORY_PATH") | crontab -
 
 echo "Setup Finalizado"
 
+echo "Rode  o comando:\nsource $SHELL_TERMINAL_RC_PATH"

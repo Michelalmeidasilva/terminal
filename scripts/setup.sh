@@ -1,6 +1,11 @@
 # This file can be used to configure .zshrc file
-cd ../
-REPOSITORY_PATH=$(pwd)
+source functions/helpers.sh
+
+REPOSITORY_PATH=$(getRepositoryPath)
+SHELL_TERMINAL_RC_PATH=$(getShellPath)
+
+echo $SHELL_TERMINAL_RC_PATH
+echo $REPOSITORY_PATH
 
 # Configure Paths
 
@@ -13,11 +18,6 @@ WELCOME_PATH=$REPOSITORY_PATH/markdowns/welcome-terminal.md
 ## Scripts paths
 UPDATE_REPOSITORY_PATH=$REPOSITORY_PATH/scripts/update-repository.sh
 SETUP_GIT_PATH=$REPOSITORY_PATH/scripts/setup-git.sh
-
-
-## Shell paths
-SHELL_PATH=$(echo $SHELL)
-SHELL_TERMINAL_RC_PATH=~/."${SHELL_PATH##*/}""rc"
 
 ## Mount alias content
 COMMANDS_ALIAS="alias shortcuts='cat $COMMANDS_PATH'"
@@ -51,3 +51,8 @@ echo "Setup Finalizado"
 echo "Rode  o comando:\nsource $SHELL_TERMINAL_RC_PATH\nPara refletir as mudanças no terminal"
 
 
+
+
+## Install NVM
+
+## Install Android

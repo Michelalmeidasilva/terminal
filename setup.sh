@@ -23,7 +23,7 @@ chmod +X $UPDATE_REPOSITORY_PATH
 ### Add alias to shortcuts for terminal
 COMMANDS_ALIAS="alias shortcuts='cat $COMMANDS_PATH'"
 TODOIST_ALIAS="alias todo='cat $TODOIST_PATH'"
-PULL_REPOSITORY_ALIAS="alias update-term='.$UPDATE_REPOSITORY_PATH'"
+PULL_REPOSITORY_ALIAS="alias update-term='$UPDATE_REPOSITORY_PATH'"
 
 
 echo "Adicionando Aliases"

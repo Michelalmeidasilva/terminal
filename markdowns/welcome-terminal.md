@@ -7,3 +7,14 @@
 5. [ ] - optar por criar sistemas como todo desktop, todo mobile, todo web ao invés de usar pronto.
 6. [ ] - seguir com o Galileu, receita e etc
 7. [ ] - criar app de finança
+
+
+# links daora de programação 
+
+1. https://github.com/media-lib/prog_lib/blob/master/general/Steve%20McConnell%20-%20Code%20Complete%20(2nd%20edition).pdf
+
+2. https://www.youtube.com/watch?v=sg1zFpNM5Jw
+
+3. https://github.com/cezaraugusto/You-Dont-Know-JS
+
+4. https://github.com/felipe-augusto/clean-code-javascript

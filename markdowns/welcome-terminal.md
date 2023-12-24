@@ -20,3 +20,5 @@ https://www.coursera.org/professional-certificates/meta-front-end-developer
 4. https://github.com/felipe-augusto/clean-code-javascript
 
 5. https://www.coursera.org/professional-certificates/meta-front-end-developer
+
+6. https://docusaurus.io/docs/playground

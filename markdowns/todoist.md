@@ -18,8 +18,6 @@
 
 #### 5- configurar comandos default
 
-#### 6 - confirar algum arquivo default para todos PCs
+#### 6 - confirar algum arquivo default para todos PCs - Utilizando ansible ou nix package manager
 
 #### 7 - criar um todolist direto no terminal com vim interativo e tal
-
-#### 8- tirar só gist, levar pro repositório private
